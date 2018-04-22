@@ -1287,6 +1287,138 @@
 									"isAbstract": false,
 									"isFinalSpecialization": false,
 									"isLeaf": false
+								},
+								{
+									"_type": "UMLUseCase",
+									"_id": "AAAAAAFi7hd9SMkVJhY=",
+									"_parent": {
+										"$ref": "AAAAAAFi7b27VS8BEWc="
+									},
+									"name": "Procesar pago con TC",
+									"ownedElements": [
+										{
+											"_type": "UMLExtend",
+											"_id": "AAAAAAFi7hhT3diux6g=",
+											"_parent": {
+												"$ref": "AAAAAAFi7hd9SMkVJhY="
+											},
+											"name": "[Si paga con TC]",
+											"source": {
+												"$ref": "AAAAAAFi7hd9SMkVJhY="
+											},
+											"target": {
+												"$ref": "AAAAAAFi7f/fsIREeMg="
+											},
+											"visibility": "public"
+										},
+										{
+											"_type": "UMLExtend",
+											"_id": "AAAAAAFi7hoEr+yEPMY=",
+											"_parent": {
+												"$ref": "AAAAAAFi7hd9SMkVJhY="
+											},
+											"name": "[Si paga con TC]",
+											"source": {
+												"$ref": "AAAAAAFi7hd9SMkVJhY="
+											},
+											"target": {
+												"$ref": "AAAAAAFi7b6fAi8cXPQ="
+											},
+											"visibility": "public"
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecialization": false,
+									"isLeaf": false
+								},
+								{
+									"_type": "UMLUseCase",
+									"_id": "AAAAAAFi7hebGcrSp/c=",
+									"_parent": {
+										"$ref": "AAAAAAFi7b27VS8BEWc="
+									},
+									"name": "Procesar pago con TD",
+									"ownedElements": [
+										{
+											"_type": "UMLExtend",
+											"_id": "AAAAAAFi7hfdcc/ojGY=",
+											"_parent": {
+												"$ref": "AAAAAAFi7hebGcrSp/c="
+											},
+											"name": "[Si paga con TD]",
+											"source": {
+												"$ref": "AAAAAAFi7hebGcrSp/c="
+											},
+											"target": {
+												"$ref": "AAAAAAFi7f/fsIREeMg="
+											},
+											"visibility": "public"
+										},
+										{
+											"_type": "UMLExtend",
+											"_id": "AAAAAAFi7hnPkeeKKuQ=",
+											"_parent": {
+												"$ref": "AAAAAAFi7hebGcrSp/c="
+											},
+											"name": "[Si paga con TD]",
+											"source": {
+												"$ref": "AAAAAAFi7hebGcrSp/c="
+											},
+											"target": {
+												"$ref": "AAAAAAFi7b6fAi8cXPQ="
+											},
+											"visibility": "public"
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecialization": false,
+									"isLeaf": false
+								},
+								{
+									"_type": "UMLUseCase",
+									"_id": "AAAAAAFi7harDMEH76E=",
+									"_parent": {
+										"$ref": "AAAAAAFi7b27VS8BEWc="
+									},
+									"name": "Notificar banco",
+									"ownedElements": [
+										{
+											"_type": "UMLExtend",
+											"_id": "AAAAAAFi7hb0SsLEOkM=",
+											"_parent": {
+												"$ref": "AAAAAAFi7harDMEH76E="
+											},
+											"name": "[Si pagó con TC o TD]",
+											"source": {
+												"$ref": "AAAAAAFi7harDMEH76E="
+											},
+											"target": {
+												"$ref": "AAAAAAFi7ci2fjHGkQc="
+											},
+											"visibility": "public"
+										},
+										{
+											"_type": "UMLExtend",
+											"_id": "AAAAAAFi7hipttpPgcs=",
+											"_parent": {
+												"$ref": "AAAAAAFi7harDMEH76E="
+											},
+											"name": "[Si pagaba con TC o TD]",
+											"source": {
+												"$ref": "AAAAAAFi7harDMEH76E="
+											},
+											"target": {
+												"$ref": "AAAAAAFi7cDuLDAG8JM="
+											},
+											"visibility": "public"
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecialization": false,
+									"isLeaf": false
 								}
 							],
 							"visibility": "public"
@@ -17299,11 +17431,11 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": 0,
-											"width": 149.54443359375,
+											"width": 186.39892578125,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "(from Modelo Comprador)",
+											"text": "(from Casos de uso comprador)",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -17759,11 +17891,11 @@
 											"containerExtending": false,
 											"left": 0,
 											"top": 64,
-											"width": 149.54443359375,
+											"width": 183.5107421875,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "(from Modelo Comprador)",
+											"text": "(from Casos de uso comprador)",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -18074,11 +18206,11 @@
 											"containerExtending": false,
 											"left": -64,
 											"top": -224,
-											"width": 149.54443359375,
+											"width": 183.5107421875,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "(from Modelo Comprador)",
+											"text": "(from Casos de uso comprador)",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -19027,138 +19159,6 @@
 							}
 						}
 					]
-				},
-				{
-					"_type": "UMLUseCase",
-					"_id": "AAAAAAFi7harDMEH76E=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Notificar banco",
-					"ownedElements": [
-						{
-							"_type": "UMLExtend",
-							"_id": "AAAAAAFi7hb0SsLEOkM=",
-							"_parent": {
-								"$ref": "AAAAAAFi7harDMEH76E="
-							},
-							"name": "[Si pagó con TC o TD]",
-							"source": {
-								"$ref": "AAAAAAFi7harDMEH76E="
-							},
-							"target": {
-								"$ref": "AAAAAAFi7ci2fjHGkQc="
-							},
-							"visibility": "public"
-						},
-						{
-							"_type": "UMLExtend",
-							"_id": "AAAAAAFi7hipttpPgcs=",
-							"_parent": {
-								"$ref": "AAAAAAFi7harDMEH76E="
-							},
-							"name": "[Si pagaba con TC o TD]",
-							"source": {
-								"$ref": "AAAAAAFi7harDMEH76E="
-							},
-							"target": {
-								"$ref": "AAAAAAFi7cDuLDAG8JM="
-							},
-							"visibility": "public"
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecialization": false,
-					"isLeaf": false
-				},
-				{
-					"_type": "UMLUseCase",
-					"_id": "AAAAAAFi7hd9SMkVJhY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Procesar pago con TC",
-					"ownedElements": [
-						{
-							"_type": "UMLExtend",
-							"_id": "AAAAAAFi7hhT3diux6g=",
-							"_parent": {
-								"$ref": "AAAAAAFi7hd9SMkVJhY="
-							},
-							"name": "[Si paga con TC]",
-							"source": {
-								"$ref": "AAAAAAFi7hd9SMkVJhY="
-							},
-							"target": {
-								"$ref": "AAAAAAFi7f/fsIREeMg="
-							},
-							"visibility": "public"
-						},
-						{
-							"_type": "UMLExtend",
-							"_id": "AAAAAAFi7hoEr+yEPMY=",
-							"_parent": {
-								"$ref": "AAAAAAFi7hd9SMkVJhY="
-							},
-							"name": "[Si paga con TC]",
-							"source": {
-								"$ref": "AAAAAAFi7hd9SMkVJhY="
-							},
-							"target": {
-								"$ref": "AAAAAAFi7b6fAi8cXPQ="
-							},
-							"visibility": "public"
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecialization": false,
-					"isLeaf": false
-				},
-				{
-					"_type": "UMLUseCase",
-					"_id": "AAAAAAFi7hebGcrSp/c=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Procesar pago con TD",
-					"ownedElements": [
-						{
-							"_type": "UMLExtend",
-							"_id": "AAAAAAFi7hfdcc/ojGY=",
-							"_parent": {
-								"$ref": "AAAAAAFi7hebGcrSp/c="
-							},
-							"name": "[Si paga con TD]",
-							"source": {
-								"$ref": "AAAAAAFi7hebGcrSp/c="
-							},
-							"target": {
-								"$ref": "AAAAAAFi7f/fsIREeMg="
-							},
-							"visibility": "public"
-						},
-						{
-							"_type": "UMLExtend",
-							"_id": "AAAAAAFi7hnPkeeKKuQ=",
-							"_parent": {
-								"$ref": "AAAAAAFi7hebGcrSp/c="
-							},
-							"name": "[Si paga con TD]",
-							"source": {
-								"$ref": "AAAAAAFi7hebGcrSp/c="
-							},
-							"target": {
-								"$ref": "AAAAAAFi7b6fAi8cXPQ="
-							},
-							"visibility": "public"
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecialization": false,
-					"isLeaf": false
 				}
 			],
 			"visibility": "public"
