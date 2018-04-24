@@ -1,26 +1,24 @@
 1) ¿En qué fase la arquitectura está estabilizada?
-	En la fase de Elaboración la arquitectura debe estar establecida, dado que es uno de los propósitos de dicha fase.
-
+	En la fase de Elaboración la arquitectura esta establecida, dado que se utiliza los casos de usos para construir el esqueleto de la arquitectura base para el software.
 2) Nombre las activdades más importantes llevadas a cabo durante la fase de construcción
 	Desarrollar incrementalmente el producto de software el cual estará listo para ser transferido al usuario
 	Las actividades más importantes durante la fase de construcción son:	
-		Implementación	
-		Pruebas
-		Gestión de cambios y configuraciones
+	Gestión de recurso, control y optimización de procesos
+	Completo desarrollo de componentes y pruebas contra los criterios de evaluación definidos
+	Valoración de los releases del producto contra los criterios de aceptación para la visión.
+
 3) ¿Cuales son las responsabilidades de la función de implementador?
-	Cubre la gestión de configuraciones de las distintas versiones de un sistema a partir de componentes y archivos quasi-	independientes. Ensamblado y disponibilidad del sistema: componentes y archivos (pagina 63 RUP)
+	El rol del implementador es responsable de los componentes de desarrollo y de prueba, de acuerdo con los estándares aprobados por el proyecto, para la integración en subsistemas más grandes. Cuando los componentes de prueba, como controladores o fragmentos para simulación, deben crearse para dar soporte a las pruebas, el implementador también es responsable del desarrollo y las pruebas de los componentes de prueba y los subsistemas correspondientes.(Internet) 
 
 4) X es una parte de un sistema de encapsulado, parte no trivial, prácticamente independiente, y reemplazable de un sistema, que cumple una función clara en el contexto de una arquitectura bien definida. ¿Qué es X?
 	X podría ser un componente de envío de notificaciones, dado que cumple una función no trivial, es reemplazable porque puede cambiar 	el método de envío de dicha notificación, es decir, si el envío es por email, puede cambiar a notificación via SMS o viceversa, es 	independiente porque tiene sus responsabilidades bien definidas es decir una alta cohesión y un bajo acoplamiento.
 
 5) ¿Cuál es el propósito de una Gestión de la Configuración (CM) del sistema?
-	 Controla los cambios y mantiene la integridad de los artefactos de un proyecto.
-
+	El objetivo de esta tarea es establecer un entorno donde se pueda desarrollar y crear el producto.
 6) ¿Cuál es el principal resultado de una iteración de la fase de construcción?
-	Principalmente las liberaciones del producto con un incremento en sus funcionalidades y finalmente una liberación "beta" del 	producto.
+	Principalmente las liberaciones del producto con un incremento en sus funcionalidades y finalmente una liberación "beta" del producto.
 
 7) Explicar las pruebas de ciclo de vida (testing lifecycle) y cómo encaja en el contexto del enfoque iterativo.
-	SACADO DE: https://www.guru99.com/software-testing-life-cycle.html
 	Test Planning:	Se determina el esfuerzo y costo estimado que va a tener el proyecto
-	Test Case Development: Esta etapa se crean y verifican los casos de pruebas que debe 	pasar el sistema
-	Test Execution: En esta etapa se prueba el sistema utilizando los casos de prueba 			previamente creados
+	Test Case Development: Esta etapa se crean y verifican los casos de pruebas que debe pasar el sistema
+	Test Execution: En esta etapa se prueba el sistema utilizando los casos de prueba previamente creados
